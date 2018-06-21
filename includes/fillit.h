@@ -6,14 +6,14 @@
 /*   By: emuckens <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/12/05 11:53:20 by emuckens          #+#    #+#             */
-/*   Updated: 2017/12/06 15:10:53 by lmeyre           ###   ########.fr       */
+/*   Updated: 2018/06/21 19:50:26 by lmeyre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FILLIT_H
 # define FILLIT_H
 
-# include "./libft/libft.h"
+# include "libft.h"
 
 typedef struct	s_struct
 {

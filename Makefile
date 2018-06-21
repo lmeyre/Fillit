@@ -1,30 +1,30 @@
+VPATH = srcs\
+
 NAME = fillit
 
 FLAGS = -Wall -Werror -Wextra
 
-SRC = check_validity.c find_position.c find_solution.c prepare_job.c manipulate_shape.c
+SRCS = check_validity.c find_position.c find_solution.c prepare_job.c manipulate_shape.c main.c
 
-BIN = $(SRC:.c=.o)
+BIN = $(SRCS:.c=.o)
 
 LIB = libft/libft.a
 
-HEADER = fillit.h
+HEADER = includes
 
 LIBDIR = libft/
 
 MAKE = Makefile
-
-MAIN = main.c
 
 .PHONY: all clean fclean re
 
 all: $(LIB) $(NAME)
 
 $(NAME): $(BIN) $(LIB) $(HEADER) $(MAKE)
-	@ gcc $(FLAGS) -o $(NAME) $(MAIN) $(BIN) -I. -I $(LIBDIR) $(LIB)
+	@ gcc $(FLAGS) -o $(NAME) -I $(HEADER) -I $(LIBDIR) $(LIB) $(BIN)
 
 %.o: %.c
-	@ gcc $(FLAGS) -o $@ -c $<
+	@ gcc $(FLAGS) -o $@ -c $< -I $(HEADER) -I $(LIBDIR)
 
 $(LIB):
 	@ make -C $(LIBDIR)
