@@ -37,6 +37,7 @@ A sample look like this:
 
 Each shape is displayed on a 4x4 square, the shape has to be a valid one (only tetriminos are valid).
 The programm will attemp to assemble the, into the smaller square possible, by using recursivity. 
+Feel free to create your own map, you have create simple file, where you put each shape in a 4x4 square, the shape has to be a tetriminos, and not be more than 25.
 
 Output:
 ```
