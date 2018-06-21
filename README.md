@@ -3,7 +3,7 @@ Fillit is a project about optimization, where you must fill a certain amount of 
 
 Recursivity can go very far in this project, wich will make a huge difference between non optimized algorithm and those that are optimized. 
 
-But it's not only about the algorythm, but also how you manage the methods, the number of verification that happen in each loop, and even in wich order they happen. Some fillit can take 10 min to find the smaller square possible where to fill 5 shape. Some can take hours, and some a few seconds.
+But it's not only about the algorythm, but also how you manage the methods, the number of verification that happen in each loop, and even in wich order they happen. Some fillit can take 10 minutes to find the smaller square possible where to fill 5 shapes, some can take hours, and some a few seconds.
 
 
 **Usage**
