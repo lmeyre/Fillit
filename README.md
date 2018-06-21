@@ -10,7 +10,7 @@ $ make
 ```
 To execute:
 ```
-$ ./fillit sample
+$ ./fillit sample_example
 ```
 A sample look like this:
 ```
